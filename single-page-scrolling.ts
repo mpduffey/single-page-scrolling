@@ -11,7 +11,7 @@ import {Component} from '@angular/core';
 		<section id="calendar" class="section-padding bg-image overlay-dark dark-bg text-center" data-stellar-background-ratio="0.5" data-background-img="img/full/33.jpg">
 			<div class="container">
 				<div class="row">
-					<div class="footer">Authorized and Paid For By Donald J. Trump for President</div>
+					<div class="footer">Paid For By Donald J. Trump for President</div>
 				</div>
 			</div>
 		</section>
