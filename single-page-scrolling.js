@@ -15,7 +15,8 @@ var SinglePageScrolling = (function () {
     SinglePageScrolling = __decorate([
         core_1.Component({
             selector: 'single-page-scrolling',
-            template: "\n      <modal></modal>\n      <nav2-menu></nav2-menu>\n      <intro-section></intro-section>\n      <about-section></about-section>\n      <event-calendar></event-calendar>\n    "
+            template: "\n\t\t<modal></modal>\n\t\t<nav2-menu></nav2-menu>\n\t\t<intro-section></intro-section>\n\t\t<about-section></about-section>\n\t\t<event-calendar></event-calendar>\n\t\t<section id=\"calendar\" class=\"section-padding bg-image overlay-dark dark-bg text-center\" data-stellar-background-ratio=\"0.5\" data-background-img=\"img/full/33.jpg\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"footer\">Authorized and Paid For By Donald J. Trump for President</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</section>\n\t",
+            styles: ["\n\t\t.footer {margin: 10px auto; border: white 3px solid; padding: 20px; font-weight: 600; color: white; text-align: center; font-size: 16px;}\n\t"]
         }), 
         __metadata('design:paramtypes', [])
     ], SinglePageScrolling);
