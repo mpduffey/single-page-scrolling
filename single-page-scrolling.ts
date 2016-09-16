@@ -8,16 +8,8 @@ import {Component} from '@angular/core';
 		<intro-section></intro-section>
 		<about-section></about-section>
 		<event-calendar></event-calendar>
-		<section id="contact" class="section-padding bg-image overlay-dark dark-bg text-center" data-stellar-background-ratio="0.5" data-background-img="img/full/33.jpg">
-			<div class="container">
-				<div class="row">
-					<div>
-						<p>Contact Wisconsin Women for Trump</p>
-						<p><a href="mailto:wwft2016@gmail.com" target="_top">wwft2016@gmail.com</a><p>
-					</div>
-				</div>
-			</div>
-		</section>
+		<img-gallery [images]="imgs"></img-gallery>
+		<sps-contact-section></sps-contact-section>
 		<section id="footer" class="section-padding bg-image overlay-dark dark-bg text-center" data-stellar-background-ratio="0.5" data-background-img="img/full/33.jpg">
 			<div class="container">
 				<div class="row">
@@ -33,5 +25,9 @@ import {Component} from '@angular/core';
 })
 
 export class SinglePageScrolling {
-	
+	imgs = [
+		{src: "img/gallery/wi-1.jpg"},
+		{src: "img/gallery/wi-2.jpg"},
+		{src: "img/gallery/wwft-waukesha.jpg"},
+	]
 }
