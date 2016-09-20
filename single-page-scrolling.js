@@ -30,7 +30,10 @@ var SinglePageScrolling = (function () {
             { src: "img/gallery/north-shore-office.jpg" },
             { src: "img/gallery/rj-for-trump.jpg" },
             { src: "img/gallery/wash-cty-const-day.jpg" },
-            { src: "img/gallery/waukesha-const-day.jpg" }
+            { src: "img/gallery/waukesha-const-day.jpg" },
+            { src: "img/gallery/west-bend-rally.jpg" },
+            { src: "img/gallery/wausau-labor-day-parade.jpg" },
+            { src: "img/gallery/appleton-const-day-4.jpg" },
         ];
         this.navMenu = [
             { link: "#intro", label: "Home" },
@@ -40,7 +43,7 @@ var SinglePageScrolling = (function () {
             { link: "https://docs.google.com/forms/d/e/1FAIpQLSfjiqYbdEAR7KZbRGCiiJCGUIsr-QR2tZnSKVl2o5qs0vtaTQ/viewform", label: "Sign-up", external: true },
             { link: "#contact", label: "Contact" }
         ];
-        this.aboutText = "We are women in the state of Wisconsin who support the election of Donald Trump and Governor Mike Pence to be President and Vice President of the United States. We believe in a strong national defense, a growing and robust economy, protection of our freedoms, and an America that is safe, secure, and propserous for our futures, our children and our grandchildren.";
+        this.aboutText = "We are women in the state of Wisconsin who support the election of Donald Trump and Governor Mike Pence to be President and Vice President of the United States. We believe in a strong national defense, a growing and robust economy, protection of our freedoms, and an America that is safe, secure, and prosperous for our futures, our children and our grandchildren.";
         this.calendarEvents = [
             {
                 date: new Date(2016, 8, 17, 11),
@@ -68,6 +71,12 @@ var SinglePageScrolling = (function () {
                 contact: "Your Victory Office Field Director"
             },
             {
+                date: new Date(2016, 8, 21, 17, 30),
+                endDate: new Date(2016, 8, 21, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
+            },
+            {
                 date: new Date(2016, 8, 26, 18, 30),
                 endDate: new Date(2016, 8, 26, 21),
                 name: "Milwaukee Debate Watching Party",
@@ -82,6 +91,12 @@ var SinglePageScrolling = (function () {
                 endDate: new Date(2016, 8, 26, 22),
                 name: "Washington County Debate Watching Party",
                 location: "West Bend GOP Office, 519 Hickory Street, West Bend, WI"
+            },
+            {
+                date: new Date(2016, 8, 28, 17, 30),
+                endDate: new Date(2016, 8, 28, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
             },
             {
                 date: new Date(2016, 8, 28, 18, 30),
@@ -102,11 +117,23 @@ var SinglePageScrolling = (function () {
                 }
             },
             {
+                date: new Date(2016, 9, 5, 17, 30),
+                endDate: new Date(2016, 9, 5, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
+            },
+            {
                 date: new Date(2016, 9, 5, 18, 30),
                 endDate: new Date(2016, 9, 5, 21),
                 name: "Ladies' Night at the Victory Center",
                 location: "Select RPW Victory Offices",
                 contact: "Your Victory Office Field Director"
+            },
+            {
+                date: new Date(2016, 9, 12, 17, 30),
+                endDate: new Date(2016, 9, 12, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
             },
             {
                 date: new Date(2016, 9, 12, 18, 30),
@@ -116,6 +143,12 @@ var SinglePageScrolling = (function () {
                 contact: "Your Victory Office Field Director"
             },
             {
+                date: new Date(2016, 9, 19, 17, 30),
+                endDate: new Date(2016, 9, 19, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
+            },
+            {
                 date: new Date(2016, 9, 19, 18, 30),
                 endDate: new Date(2016, 9, 19, 21),
                 name: "Ladies' Night at the Victory Center",
@@ -123,11 +156,23 @@ var SinglePageScrolling = (function () {
                 contact: "Your Victory Office Field Director"
             },
             {
+                date: new Date(2016, 9, 26, 17, 30),
+                endDate: new Date(2016, 9, 26, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
+            },
+            {
                 date: new Date(2016, 9, 26, 18, 30),
                 endDate: new Date(2016, 9, 26, 21),
                 name: "Ladies' Night at the Victory Center",
                 location: "Select RPW Victory Offices",
                 contact: "Your Victory Office Field Director"
+            },
+            {
+                date: new Date(2016, 10, 2, 17, 30),
+                endDate: new Date(2016, 10, 2, 20),
+                name: "Ladies' Night at Milwaukee's North Shore Victory Center",
+                location: "500 West Brown Deer Road, Suite 104, Bayview, WI"
             },
             {
                 date: new Date(2016, 10, 2, 18, 30),
