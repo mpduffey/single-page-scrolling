@@ -8,7 +8,7 @@ import {Component, Input} from '@angular/core';
 		<sps-about-section [about]="app.about"></sps-about-section>
 		<sps-event-calendar [events]="app.calendar.events"></sps-event-calendar>
 		<img-gallery *ngIf="app.gallery" [gallery]="app.gallery"></img-gallery>
-		<sps-membership></sps-membership>
+		<sps-membership [membership]="app.membership"></sps-membership>
 		<sps-contact-section [contact-text]="app.contact.text" [contact-email]="app.contact.email"></sps-contact-section>
 		<sps-footer [footer]="app.footer"></sps-footer>
 	`,
