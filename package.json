@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mpduffey/single-page-scrolling/issues"
   },
-  "homepage": "https://github.com/mpduffey/single-page-scrolling#readme"
+  "homepage": "https://github.com/mpduffey/single-page-scrolling#readme",
+  "dependencies": {
+    "font-awesome": "^4.6.3"
+  }
 }
