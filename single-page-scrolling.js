@@ -19,7 +19,7 @@ var SinglePageScrolling = (function () {
     SinglePageScrolling = __decorate([
         core_1.Component({
             selector: 'single-page-scrolling',
-            template: "\n\t\t<nav-menu [menu]=\"app.navMenu\"></nav-menu>\n\t\t<sps-intro-section [title]=\"app.intro.title\" [button-title]=\"app.intro.buttonTitle\" [button-link]=\"app.intro.buttonLink\"></sps-intro-section>\n\t\t<sps-about-section [about]=\"app.about\"></sps-about-section>\n\t\t<sps-event-calendar [events]=\"app.calendar.events\"></sps-event-calendar>\n\t\t<img-gallery *ngIf=\"app.gallery\" [gallery]=\"app.gallery\"></img-gallery>\n\t\t<sps-membership [membership]=\"app.membership\"></sps-membership>\n\t\t<sps-contact-section [contact-text]=\"app.contact.text\" [contact-email]=\"app.contact.email\"></sps-contact-section>\n\t\t<sps-footer [footer]=\"app.footer\"></sps-footer>\n\t",
+            template: "\n\t\t<nav-menu [menu]=\"app.navMenu\"></nav-menu>\n\t\t<sps-intro-section [title]=\"app.intro.title\" [button-title]=\"app.intro.buttonTitle\" [button-link]=\"app.intro.buttonLink\"></sps-intro-section>\n\t\t<sps-about-section [about]=\"app.about\"></sps-about-section>\n\t\t<sps-event-calendar [events]=\"app.calendar.events\"></sps-event-calendar>\n\t\t<img-gallery *ngIf=\"app.gallery\" [gallery]=\"app.gallery\"></img-gallery>\n\t\t<sps-membership *ngIf=\"app.membership\" [membership]=\"app.membership\"></sps-membership>\n\t\t<sps-contact-section [contact-text]=\"app.contact.text\" [contact-email]=\"app.contact.email\"></sps-contact-section>\n\t\t<sps-footer [footer]=\"app.footer\"></sps-footer>\n\t",
             styles: ["\n\t\t#contact a:hover {color: white;}\n\t"]
         }), 
         __metadata('design:paramtypes', [])
